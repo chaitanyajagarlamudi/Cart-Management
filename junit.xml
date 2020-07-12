@@ -1,0 +1,66 @@
+<testsuites name="jest tests" tests="5" failures="4" time="4.31">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2020-07-12T22:03:34" time="4.31" tests="5">
+    <testcase classname=" Should Add item to cart" name=" Should Add item to cart" time="0.122">
+    </testcase>
+    <testcase classname=" Should Calculate correct price before selecting coupon" name=" Should Calculate correct price before selecting coupon" time="0.061">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  30
+Received:
+  0
+    at Object.&lt;anonymous&gt;.test (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\src\App.test.js:119:31)
+    at Object.asyncFn (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at resolve (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at Promise.resolve.then.el (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\p-map\index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Should calculate discounts on selecting a coupon" name=" Should calculate discounts on selecting a coupon" time="0.04">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  5
+Received:
+  0
+    at Object.&lt;anonymous&gt;.test (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\src\App.test.js:140:34)
+    at Object.asyncFn (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at resolve (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at Promise.resolve.then.el (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\p-map\index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Should recalculate prices when item is removed from cart" name=" Should recalculate prices when item is removed from cart" time="0.037">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  6
+Received:
+  0
+    at Object.&lt;anonymous&gt;.test (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\src\App.test.js:155:34)
+    at Object.asyncFn (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at resolve (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at Promise.resolve.then.el (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\p-map\index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" Should recalculate prices when coupon is changed" name=" Should recalculate prices when coupon is changed" time="0.028">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  6
+Received:
+  0
+    at Object.&lt;anonymous&gt;.test (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\src\App.test.js:182:34)
+    at Object.asyncFn (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at resolve (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at Promise.resolve.then.el (C:\Users\Chaitanya\Desktop\git repos\Cart-Management\node_modules\p-map\index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
